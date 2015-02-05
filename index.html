@@ -1,672 +1,1093 @@
 <!DOCTYPE html>
-<!-- KISSmetrics tracking snippet -->
-<script type="text/javascript">var _kmq = _kmq || [];
-var _kmk = _kmk || '6185acc162081e59ed251a955f75e431c6b25cd9';
-function _kms(u){
-  setTimeout(function(){
-    var d = document, f = d.getElementsByTagName('script')[0],
-    s = d.createElement('script');
-    s.type = 'text/javascript'; s.async = true; s.src = u;
-    f.parentNode.insertBefore(s, f);
-  }, 1);
-}
-_kms('//i.kissmetrics.com/i.js');
-_kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
-</script>
-<!-- TODO: The current logged in user's email address. -->
-_kmq.push(['identify'], 'EMAIL ADDRESS GOES HERE');
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>Worthy | Free Powerful Theme by HtmlCoder</title>
+		<meta name="description" content="Worthy a Bootstrap-based, Responsive HTML5 Template">
+		<meta name="author" content="htmlcoder.me">
 
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  ga('create', 'UA-52739252-1', 'auto');
-  ga('send', 'pageview');
-</script>
-<script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
-<script type="text/javascript">
-twttr.conversion.trackPid('l4pmt');
-</script>
-<noscript>
-<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l4pmt&p_id=Twitter" />
-<img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l4pmt&p_id=Twitter" />
-</noscript>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> 
-<![endif]-->
-<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> 
-<![endif]-->
-<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-    <meta property="twitter:account_id" content="4503599630095532" />
-    <title>DeVonta Posey</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="templatemo">
-    <meta charset="UTF-8">
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico">
 
-    <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800' rel='stylesheet' type='text/css'>
-        
-    <!-- CSS Bootstrap & Custom -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
-    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" href="css/templatemo_misc.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link href="css/templatemo_style.css" rel="stylesheet" media="screen">
-        
-    <!-- Favicons -->
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    
-    <!-- JavaScripts -->
-    <script src="js/jquery-1.10.2.min.js"></script>
-    <script src="js/modernizr.js"></script>
-    <!--[if lt IE 8]>
-	<div style=' clear: both; text-align:center; position: relative;'>
-            <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" alt="" /></a>
-        </div>
-    <![endif]-->
-</head>
-<body>
-    
-    
-    <div class="bg-image"></div>
-    <div class="overlay-bg"></div>
+		<!-- Web Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
 
-    
-    <div class="container language-select visible-md visible-lg">
-        <div class="row">
-            <div class="col-md-12">
-                <select name="cat2" id="cat2" class="postform">
-                    <option value="0">-- Language Selection --</option>
-                    <option class="level-0" value="1">English</option>
-                    <option class="level-0" value="2">Myanmar</option>
-                </select>
-            </div> <!-- /.col-md-12 -->
-        </div> <!-- /.row -->
-    </div> <!-- /.language-select -->
+		<!-- Bootstrap core CSS -->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 
-    <!-- This one in here is responsive menu for tablet and mobiles -->
-    <div class="responsive-navigation visible-sm visible-xs">
-        <a href="#" class="menu-toggle-btn">
-            <i class="fa fa-bars fa-2x"></i>
-        </a>
-        <div class="responsive_menu">
-            <ul class="main_menu">
-                <li><a class="show-1 homebutton" href="#"><i class="fa fa-home"></i>Home</a></li>
-                <li><a class="show-2" href="about"><i class="fa fa-group"></i>About Me</a></li>
-                <li><a class="show-3" href="blog"><i class="fa fa-briefcase"></i>Blog</a></li>
-                <li><a class="show-4" href="skills"><i class="fa fa-cogs"></i>My Skills</a></li>
-                <li><a class="show-5" href="contact"><i class="fa fa-globe"></i>Contact</a></li>
-            </ul> <!-- /.main_menu -->
-        </div> <!-- /.responsive_menu -->
-    </div> <!-- /responsive_navigation -->
+		<!-- Font Awesome CSS -->
+		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
 
-    <div class="main-content">
-        <div class="container">
-            <div class="row">
+		<!-- Plugins -->
+		<link href="css/animations.css" rel="stylesheet">
 
-                <!-- Static Menu -->
-                <div class="col-md-2 visible-md visible-lg">
-                    <div class="main_menu">
-                        <ul class="menu">
-                            <li><a class="show-1 homebutton" href="#" data-toggle="tooltip" data-original-title="Homepage"><i class="fa fa-home"></i></a></li>
-                            <li><a class="show-2" href="about" data-toggle="tooltip" data-original-title="About Me"><i class="fa fa-user"></i></a></li>
-                            <li><a class="show-3" href="blog" data-toggle="tooltip" data-original-title="Blog"><i class="fa fa-briefcase"></i></a></li>
-                            <li><a class="show-4" href="skills" data-toggle="tooltip" data-original-title="My Skills"><i class="fa fa-cog"></i></a></li>
-                            <li><a class="show-5" href="contact" data-toggle="tooltip" data-original-title="Stay In Touch"><i class="fa fa-globe"></i></a></li>
-                        </ul>
-                    </div> <!-- /.main-menu -->
-                </div> <!-- /.col-md-2 -->
+		<!-- Worthy core CSS file -->
+		<link href="css/style.css" rel="stylesheet">
 
-                <!-- Begin Content -->
-                <div class="col-md-10">
+		<!-- Custom css --> 
+		<link href="css/custom.css" rel="stylesheet">
+	</head>
 
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="templatemo_logo">
-                                <a href="#">
-                                    <img src="images/dptransparent.png" alt="DeVonta Posey">
-                                </a>
-                            </div> <!-- /.logo -->
-                        </div> <!-- /.col-md-12 -->
-                    </div> <!-- /.row -->
+	<body class="no-trans">
+		<!-- scrollToTop -->
+		<!-- ================ -->
+		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
 
+		<!-- header start -->
+		<!-- ================ --> 
+		<header class="header fixed clearfix navbar navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
 
-                    <div id="menu-container">
-                        
-                        <div id="menu-1" class="homepage">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-6 col-xs-6">
-                                    <div class="portfolio-item">
-                                        <div class="overlay">
-                                            <a href="images/gallery/a1.jpg" data-rel="lightbox">
-                                                <i class="fa fa-expand"></i>
-                                            </a>
-                                        </div>
-                                        <img src="images/gallery/a1.jpg" alt="Image 1">
-                                    </div> <!-- /.portfolio-item -->
-                                </div> <!-- /.col-md-4 -->
-                                <div class="col-md-4 col-sm-6 col-xs-6">
-                                    <div class="portfolio-item">
-                                        <div class="overlay">
-                                            <a href="images/gallery/a2.jpg" data-rel="lightbox">
-                                                <i class="fa fa-expand"></i>
-                                            </a>
-                                        </div>
-                                        <img src="images/gallery/a2.jpg" alt="Image 2">
-                                    </div> <!-- /.portfolio-item -->
-                                </div> <!-- /.col-md-4 -->
-                                <div class="col-md-4 col-sm-6 col-xs-6">
-                                    <div class="portfolio-item">
-                                        <div class="overlay">
-                                            <a href="images/gallery/a3.jpg" data-rel="lightbox">
-                                                <i class="fa fa-expand"></i>
-                                            </a>
-                                        </div>
-                                        <img src="images/gallery/a3.jpg" alt="Image 3">
-                                    </div> <!-- /.portfolio-item -->
-                                </div> <!-- /.col-md-4 -->
-                                <div class="col-md-4 col-sm-6 col-xs-6">
-                                    <div class="portfolio-item">
-                                        <div class="overlay">
-                                            <a href="images/gallery/a4.jpg" data-rel="lightbox">
-                                                <i class="fa fa-expand"></i>
-                                            </a>
-                                        </div>
-                                        <img src="images/gallery/a4.jpg" alt="Image 4">
-                                    </div> <!-- /.portfolio-item -->
-                                </div> <!-- /.col-md-4 -->
-                                <div class="col-md-4 col-sm-6 col-xs-6">
-                                    <div class="portfolio-item">
-                                        <div class="overlay">
-                                            <a href="images/gallery/a5.jpg" data-rel="lightbox">
-                                                <i class="fa fa-expand"></i>
-                                            </a>
-                                        </div>
-                                        <img src="images/gallery/a5.jpg" alt="Image 5">
-                                    </div> <!-- /.portfolio-item -->
-                                </div> <!-- /.col-md-4 -->
-                                <div class="col-md-4 col-sm-6 col-xs-6">
-                                    <div class="portfolio-item">
-                                        <div class="overlay">
-                                            <a href="images/gallery/a6.jpg" data-rel="lightbox">
-                                                <i class="fa fa-expand"></i>
-                                            </a>
-                                        </div>
-                                        <img src="images/gallery/a6.jpg" alt="Image 6">
-                                    </div> <!-- /.portfolio-item -->
-                                </div> <!-- /.col-md-4 -->
-                                <div class="col-md-4 col-sm-6 col-xs-6">
-                                    <div class="portfolio-item">
-                                        <div class="overlay">
-                                            <a href="images/gallery/a7.jpg" data-rel="lightbox">
-                                                <i class="fa fa-expand"></i>
-                                            </a>
-                                        </div>
-                                        <img src="images/gallery/a7.jpg" alt="Image 7">
-                                    </div> <!-- /.portfolio-item -->
-                                </div> <!-- /.col-md-4 -->
-                                <div class="col-md-4 col-sm-6 col-xs-6">
-                                    <div class="portfolio-item">
-                                        <div class="overlay">
-                                            <a href="images/gallery/a8.jpg" data-rel="lightbox">
-                                                <i class="fa fa-expand"></i>
-                                            </a>
-                                        </div>
-                                        <img src="images/gallery/a8.jpg" alt="Image 8">
-                                    </div> <!-- /.portfolio-item -->
-                                </div> <!-- /.col-md-4 -->
-                                <div class="col-md-4 col-sm-6 col-xs-6">
-                                    <div class="portfolio-item">
-                                        <div class="overlay">
-                                            <a href="images/gallery/a9.jpg" data-rel="lightbox">
-                                                <i class="fa fa-expand"></i>
-                                            </a>
-                                        </div>
-                                        <img src="images/gallery/a9.jpg" alt="Image 9">
-                                    </div> <!-- /.portfolio-item -->
-                                </div> <!-- /.col-md-4 -->
-                            </div> <!-- /.row -->
-                        </div> <!-- /.homepage -->
+						<!-- header-left start -->
+						<!-- ================ -->
+						<div class="header-left clearfix">
 
-                        <div id="menu-2" class="content about-us">
-                            <div class="page-header">
-                                <h2 class="page-title">About Me</h2>
-                            </div> <!-- /.page-header -->
-                            <div class="content-inner">
-                                <div class="row">
-                                    <div class="col-md-7">
-                                        <h3 class="widget-title">Who Am I? DeVonta LaVoiseair Posey</h3>
-                                        <p>Named after <a rel="nofollow" href="http://en.wikipedia.org/wiki/Antoine_Lavoisier">The Father of Modern Chemistry</a>; I'm originally from Flint, Michigan now residing in Houston, TX. I am an advid sports enthusiast (somewhat of a fanatic), drummer, music connoisseur, and gadget lover. My past studies have led to a driving interest in art, architecture, travel and a fascination in the growing world of technology.</p>
+							<!-- logo -->
+							<div class="logo smooth-scroll">
+								<a href="#banner"><img id="logo" src="images/logo.png" alt="Worthy"></a>
+							</div>
 
-                                        <p>Currently a student at <a rel="nofollow" href="http://www.startupinstitute.com">Startup Institute</a> Chicago developing my skills to become a full-stack marketer. Startup Institute is a career accelerator program that teaches students who are passionate about the startup ecosystem the technical skills and cultural know-how to make an immediate impact as an early stage team member. The intensive 8-week curriculum is focused on: HTML/CSS, SQL, SEO, Google Analytics and Adwords, A/B Testing, Content and Inbound Marketing, Branding and Positioning, and Marketing Automation.</p>
-                                    </div> <!-- /.col-md-7 -->
-                                    <div class="col-md-5">
-                                        <h3 class="widget-title">Skills Progress</h3>
-                                        <ul class="progess-bars">
-                                            <li>
-                                                <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">GOOGLE ANALYTICS 85%</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">HTML/CSS 65%</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">INBOUND MARKETING 90%</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">PAID PLACEMENT 80%</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">SEO 95%</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">SOCIAL MEDIA 75%</div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div> <!-- /.col-md-5 -->
-                                </div> <!-- /.row -->
-                                <div class="our-team">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <h3 class="widget-title">Meet Our Team</h3>
-                                        </div> <!-- /.col-md-12 -->
-                                    </div> <!-- /.row -->
-                                    <div class="row">
-                                        <div class="col-md-4 col-sm-6">
-                                            <div class="team-member">
-                                                <div class="member-thumb">
-                                                    <img src="images/team1.jpg" alt="">
-                                                </div>
-                                                <div class="member-infos">
-                                                    <h4 class="member-name">George</h4>
-                                                    <span class="member-role">Web Designer</span>
-                                                    <p class="member-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                                    <ul class="member-social">
-                                                        <li><a href="#" class="fa fa-facebook"></a></li>
-                                                        <li><a href="#" class="fa fa-twitter"></a></li>
-                                                        <li><a href="#" class="fa fa-linkedin"></a></li>
-                                                        <li><a href="#" class="fa fa-instagram"></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div> <!-- /.col-md-4 -->
-                                        <div class="col-md-4 col-sm-6">
-                                            <div class="team-member">
-                                                <div class="member-thumb">
-                                                    <img src="images/team2.jpg" alt="">
-                                                </div>
-                                                <div class="member-infos">
-                                                    <h4 class="member-name">Michael</h4>
-                                                    <span class="member-role">Web Developer</span>
-                                                    <p class="member-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                                    <ul class="member-social">
-                                                        <li><a href="#" class="fa fa-facebook"></a></li>
-                                                        <li><a href="#" class="fa fa-twitter"></a></li>
-                                                        <li><a href="#" class="fa fa-linkedin"></a></li>
-                                                        <li><a href="#" class="fa fa-instagram"></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div> <!-- /.col-md-4 -->
-                                        <div class="col-md-4 col-sm-6">
-                                            <div class="team-member">
-                                                <div class="member-thumb">
-                                                    <img src="images/team3.jpg" alt="">
-                                                </div>
-                                                <div class="member-infos">
-                                                    <h4 class="member-name">Johnny</h4>
-                                                    <span class="member-role">Marketing Manager</span>
-                                                    <p class="member-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                                    <ul class="member-social">
-                                                        <li><a href="#" class="fa fa-facebook"></a></li>
-                                                        <li><a href="#" class="fa fa-twitter"></a></li>
-                                                        <li><a href="#" class="fa fa-linkedin"></a></li>
-                                                        <li><a href="#" class="fa fa-instagram"></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div> <!-- /.col-md-4 -->
-                                    </div> <!-- /.row -->
-                                </div> <!-- /.our-team -->
-                            </div> <!-- /.content-inner -->
-                        </div> <!-- /.about-us -->
+							<!-- name-and-slogan -->
+							<div class="site-name-and-slogan smooth-scroll">
+								<div class="site-name"><a href="#banner">Worthy</a></div>
+								<div class="site-slogan">Free Bootstrap Theme by <a target="_blank" href="http://htmlcoder.me">HtmlCoder</a></div>
+							</div>
 
-                        <div id="menu-3" class="content our-gallery">
-                            <div class="page-header">
-                                <h2 class="page-title">Blog</h2>
-                            </div> <!-- /.page-header -->
-                            <div class="content-inner">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <h3 class="widget-title">My Latest Content "Coming Soon"</h3>
-                                    </div> <!-- /.col-md-6 -->
-                                    <div class="col-md-6">
-                                        <div class="filter-work pull-right">
-                                            <a href="#nogo" class="toggle-filter">Category Filter</a>
-                                            <ul class="filter-controls controls">
-                                                <li class="filter" data-filter="all">Show All</li>
-                                                <li class="filter" data-filter="branding">Branding</li>
-                                                <li class="filter" data-filter="graphic">Graphic Design</li>
-                                                <li class="filter" data-filter="nature">Nature</li>
-                                            </ul>
-                                        </div> <!-- /.filter-work -->
-                                    </div> <!-- /.col-md-6 -->
-                                </div> <!-- /.row -->
-                                <div class="row">
-                                    <div id="Grid">
-                                        <div class="col-md-4 col-sm-6 mix graphic">
-                                            <div class="gallery-item">
-                                                <div class="gallery-thumb">
-                                                    <img src="images/gallery/p1.jpg" alt="">
-                                                    <div class="overlay-g">
-                                                        <a href="images/gallery/p1.jpg" data-rel="lightbox" class="fa fa-search"></a>
-                                                    </div>
-                                                </div> <!-- /.gallery-thumb -->
-                                                <div class="gallery-content">
-                                                    <h4 class="gallery-title">Project Title One</h4>    
-                                                    <span class="gallery-category">Graphic Design</span>
-                                                </div> <!-- /.gallery-content -->
-                                            </div> <!-- /.gallery-item -->
-                                        </div> <!-- /.col-md-4 -->
-                                        <div class="col-md-4 col-sm-6 mix branding">
-                                            <div class="gallery-item">
-                                                <div class="gallery-thumb">
-                                                    <img src="images/gallery/p2.jpg" alt="">
-                                                    <div class="overlay-g">
-                                                        <a href="images/gallery/p2.jpg" data-rel="lightbox" class="fa fa-search"></a>
-                                                    </div>
-                                                </div> <!-- /.gallery-thumb -->
-                                                <div class="gallery-content">
-                                                    <h4 class="gallery-title">Project Title Two</h4>    
-                                                    <span class="gallery-category">Branding</span>
-                                                </div> <!-- /.gallery-content -->
-                                            </div> <!-- /.gallery-item -->
-                                        </div> <!-- /.col-md-4 -->
-                                        <div class="col-md-4 col-sm-6 mix nature">
-                                            <div class="gallery-item">
-                                                <div class="gallery-thumb">
-                                                    <img src="images/gallery/p3.jpg" alt="">
-                                                    <div class="overlay-g">
-                                                        <a href="images/gallery/p3.jpg" data-rel="lightbox" class="fa fa-search"></a>
-                                                    </div>
-                                                </div> <!-- /.gallery-thumb -->
-                                                <div class="gallery-content">
-                                                    <h4 class="gallery-title">Project Title Three</h4>    
-                                                    <span class="gallery-category">Nature</span>
-                                                </div> <!-- /.gallery-content -->
-                                            </div> <!-- /.gallery-item -->
-                                        </div> <!-- /.col-md-4 -->
-                                        <div class="col-md-4 col-sm-6 mix branding">
-                                            <div class="gallery-item">
-                                                <div class="gallery-thumb">
-                                                    <img src="images/gallery/p4.jpg" alt="">
-                                                    <div class="overlay-g">
-                                                        <a href="images/gallery/p4.jpg" data-rel="lightbox" class="fa fa-search"></a>
-                                                    </div>
-                                                </div> <!-- /.gallery-thumb -->
-                                                <div class="gallery-content">
-                                                    <h4 class="gallery-title">Project Title Four</h4>    
-                                                    <span class="gallery-category">Branding</span>
-                                                </div> <!-- /.gallery-content -->
-                                            </div> <!-- /.gallery-item -->
-                                        </div> <!-- /.col-md-4 -->
-                                        <div class="col-md-4 col-sm-6 mix graphic">
-                                            <div class="gallery-item">
-                                                <div class="gallery-thumb">
-                                                    <img src="images/gallery/p5.jpg" alt="">
-                                                    <div class="overlay-g">
-                                                        <a href="images/gallery/p5.jpg" data-rel="lightbox" class="fa fa-search"></a>
-                                                    </div>
-                                                </div> <!-- /.gallery-thumb -->
-                                                <div class="gallery-content">
-                                                    <h4 class="gallery-title">Project Title Five</h4>    
-                                                    <span class="gallery-category">Graphic Design</span>
-                                                </div> <!-- /.gallery-content -->
-                                            </div> <!-- /.gallery-item -->
-                                        </div> <!-- /.col-md-4 -->
-                                        <div class="col-md-4 col-sm-6 mix nature">
-                                            <div class="gallery-item">
-                                                <div class="gallery-thumb">
-                                                    <img src="images/gallery/p6.jpg" alt="">
-                                                    <div class="overlay-g">
-                                                        <a href="images/gallery/p6.jpg" data-rel="lightbox" class="fa fa-search"></a>
-                                                    </div>
-                                                </div> <!-- /.gallery-thumb -->
-                                                <div class="gallery-content">
-                                                    <h4 class="gallery-title">Project Title Six</h4>    
-                                                    <span class="gallery-category">Nature</span>
-                                                </div> <!-- /.gallery-content -->
-                                            </div> <!-- /.gallery-item -->
-                                        </div> <!-- /.col-md-4 -->
-                                    </div> <!-- /#Grid -->
-                                </div> <!-- /.row -->
-                            </div> <!-- /.content-inner -->
+						</div>
+						<!-- header-left end -->
 
-                        </div> <!-- /.our-gallery -->
+					</div>
+					<div class="col-md-8">
 
-                        <div id="menu-4" class="content">
-                            <div class="page-header">
-                                <h2 class="page-title">My Skills</h2>
-                            </div> <!-- /.page-header -->
-                            <div class="content-inner">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <h3 class="widget-title">You can also view <a rel="nofollow" target="_blank" href="images/dposeyRESUME.pdf">my resume</a> here.</h3> 
-                                    </div> <!-- /.col-md-12 -->
-                                </div> <!-- /.row -->
-                                <div class="row services">
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="service">
-                                            <div class="header">
-                                                <div class="header-bg"></div>
-                                                <div class="service-header">
-                                                    <div class="icon">
-                                                        <i class="fa fa-heart-o"></i>
-                                                    </div>
-                                                    <h4 class="service-title">GOOGLE ANALYTICS</h4>
-                                                </div>
-                                            </div>
-                                            <div class="body">A service offered by Google that generates detailed statistics about a website's traffic and traffic sources and measures conversions and sales.</div>
-                                        </div>
-                                    </div> <!-- /.col-md-4 -->
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="service">
-                                            <div class="header">
-                                                <div class="header-bg"></div>
-                                                <div class="service-header">
-                                                    <div class="icon">
-                                                        <i class="fa fa-flask"></i>
-                                                    </div>
-                                                    <h4 class="service-title">HTML/CSS</h4>
-                                                </div>
-                                            </div>
-                                            <div class="body">HTML elements form the building blocks of all websites. CSS is a style sheet language used for describing the look and formatting of a document written in a markup language.</div>
-                                        </div>
-                                    </div> <!-- /.col-md-4 -->
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="service">
-                                            <div class="header">
-                                                <div class="header-bg"></div>
-                                                <div class="service-header">
-                                                    <div class="icon">
-                                                        <i class="fa fa-money"></i>
-                                                    </div>
-                                                    <h4 class="service-title">INBOUND MARKETING</h4>
-                                                </div>
-                                            </div>
-                                            <div class="body"> Marketing activities that bring visitors in through blogs, podcasts, video, eBooks,eNewsletters, SEO, and social media; which serve to bring customers in closer to the brand.</div>
-                                        </div>
-                                    </div> <!-- /.col-md-4 -->
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="service">
-                                            <div class="header">
-                                                <div class="header-bg"></div>
-                                                <div class="service-header">
-                                                    <div class="icon">
-                                                        <i class="fa fa-eye"></i>
-                                                    </div>
-                                                    <h4 class="service-title">PAID PLACEMENT</h4>
-                                                </div>
-                                            </div>
-                                            <div class="body">Pay per click (PPC) (also called cost per click) is an internet advertising model used to direct traffic to websites. It is defined simply as “the amount spent to get an advertisement clicked." </div>
-                                        </div>
-                                    </div> <!-- /.col-md-4 -->
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="service">
-                                            <div class="header">
-                                                <div class="header-bg"></div>
-                                                <div class="service-header">
-                                                    <div class="icon">
-                                                        <i class="fa fa-mobile-phone"></i>
-                                                    </div>
-                                                    <h4 class="service-title">SEO</h4>
-                                                </div>
-                                            </div>
-                                            <div class="body">SEO considers how search engines work, what people search for, the actual search terms or keywords typed into search engines and which search engines are preferred by their targeted audience.</div>
-                                        </div>
-                                    </div> <!-- /.col-md-4 -->
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="service">
-                                            <div class="header">
-                                                <div class="header-bg"></div>
-                                                <div class="service-header">
-                                                    <div class="icon">
-                                                        <i class="fa fa-cogs"></i>
-                                                    </div>
-                                                    <h4 class="service-title">SOCIAL MEDIA</h4>
-                                                </div>
-                                            </div>
-                                            <div class="body"> Social media is the social interaction among people on highly interactive platforms through which individuals and communities share, co-create, discuss, and modify user-generated content. </div>
-                                        </div>
-                                    </div> <!-- /.col-md-4 -->
-                                </div> <!-- /.row -->
-                            </div> <!-- /.content-inner -->
+						<!-- header-right start -->
+						<!-- ================ -->
+						<div class="header-right clearfix">
 
-                        </div> <!-- /.services -->
+							<!-- main-navigation start -->
+							<!-- ================ -->
+							<div class="main-navigation animated">
 
-                        <div id="menu-5" class="content">
-                            <div class="page-header">
-                                <h2 class="page-title">Stay In Touch</h2>
-                            </div> <!-- /.page-header -->
-                            <div class="content-inner">
-                                <div class="row">
-                                    <div class="col-md-8">
-                                        <h3 class="widget-title">Send a message</h3>
-                                        <p>Feel free to send me a message regarding any questions you may have. If you have a specific project that you'd like to talk about, simply fill in the form below and I'll get back to you with my availability. Also, if you want to connect through social media just click the logo below.</p>
-                                        <div class="row contact-form">
-                                            <div class="col-md-4">
-                                                <label for="name-id">Your Name:</label>
-                                                <input name="name-id" type="text" id="name-id" maxlength="40">
-                                            </div>
-                                            <div class="col-md-4">
-                                                <label for="email-id">E-mail:</label>
-                                                <input name="email-id" type="text" id="email-id" maxlength="40">
-                                            </div>
-                                            <div class="col-md-4">
-                                                <label for="subject-id">Subject:</label>
-                                                <input name="subject-id" type="text" id="subject-id" maxlength="60">
-                                            </div>
-                                        </div> <!-- /.contact-form -->
-                                        <p class="full-row">
-                                            <label for="message">Message:</label>
-                                            <textarea name="message" id="message" rows="6"></textarea>
-                                        </p>
-                                        <input class="mainBtn" type="submit" name="" value="Send Message">
-                                    </div> <!-- /.col-md-8 -->
-                                    <div class="col-md-4">
-                                        <div class="information">
-                                            <h3 class="widget-title">Information</h3>
-                                            <ul class="our-location">
-                                                <li><span><i class="fa fa-map-marker"></i>Address:</span>Houston, TX</li>
-                                                <li><span><i class="fa fa-map-marker"></i>Phone:</span>832-278-1810</li>
-                                                <li><span><i class="fa fa-map-marker"></i>Email:</span><a href="mailto:dlposey13@gmail.com">dlposey13@gmail.com</a></li>
-                                            </ul>
-                                        </div> <!-- /.information -->
-                                        <div class="google-map">
-                                            <h3 class="widget-title">My Location</h3>
-                                            <div class="contact-map">
-                                                <div class="google-map-canvas" id="map-canvas" style="height: 200px;">
-                                                </div>
-                                            </div> <!-- /.contact-map -->
-                                        </div> <!-- /.google-map -->
-                                    </div> <!-- /.col-md-4 -->
-                                </div> <!-- /.row -->
-                            </div> <!-- /.content-inner -->
+								<!-- navbar start -->
+								<!-- ================ -->
+								<nav class="navbar navbar-default" role="navigation">
+									<div class="container-fluid">
 
-                        </div> <!-- /.stay-in-touch -->
-                        
-                        <div class="site-footer">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <p class="copyright-text">© 2014 DeVonta Posey and devontaposey.com<a rel="nofollow" href="#"></a> by <a rel="nofollow" href="#">DP</a></p> 
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="social-icons-footer">
-                                        <ul>
-                                            <li><a href="https://www.facebook.com/devonta.posey" target="_blank" class="fa fa-facebook"></a></li>
-                                            <li><a href="https://twitter.com/So_FLI" target="_blank" class="fa fa-twitter"></a></li>
-                                            <li><a href="https://www.linkedin.com/in/devontaposey" target="_blank" class="fa fa-linkedin"></a></li>
-                                            <li><a href="http://instagram.com/so_fli" target="_blank" class="fa fa-instagram"></a></li>
-                                            <li><a href="#" class="fa fa-rss"></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.site-footer -->
+										<!-- Toggle get grouped for better mobile display -->
+										<div class="navbar-header">
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+												<span class="sr-only">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+										</div>
 
-                    </div> <!-- /.content-holder -->
-                
-                </div> <!-- /.col-md-10 -->
-            </div> <!-- /.row -->
-        </div> <!-- /.container -->
-    </div> <!-- /.main-content -->
+										<!-- Collect the nav links, forms, and other content for toggling -->
+										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+											<ul class="nav navbar-nav navbar-right">
+												<li class="active"><a href="#banner">Home</a></li>
+												<li><a href="#about">About</a></li>
+												<li><a href="#services">Services</a></li>
+												<li><a href="#portfolio">Portfolio</a></li>
+												<li><a href="#clients">Clients</a></li>
+												<li><a href="#contact">Contact</a></li>
+											</ul>
+										</div>
 
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+									</div>
+								</nav>
+								<!-- navbar end -->
 
-    <script src="js/jquery.mixitup.min.js"></script>
-    <script src="js/jquery.nicescroll.min.js"></script>
-    <script src="js/jquery.lightbox.js"></script>
-    <script src="js/templatemo_custom.js"></script>
-    <script>
-        function initialize() {
-          var mapOptions = {
-            zoom: 13,
-            center: new google.maps.LatLng(29.7185824,-95.3646897)
-          };
+							</div>
+							<!-- main-navigation end -->
 
-          var map = new google.maps.Map(document.getElementById('map-canvas'),
-              mapOptions);
-        }
+						</div>
+						<!-- header-right end -->
 
-        function loadScript() {
-          var script = document.createElement('script');
-          script.type = 'text/javascript';
-          script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
-              'callback=initialize';
-          document.body.appendChild(script);
-        }
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header end -->
 
-    </script>
-    <script type="text/javascript">var ssaUrl = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'pixel.sitescout.com/iap/ce30d6b5474ad454';new Image().src = ssaUrl;</script>
-<script type="text/javascript">
-setTimeout(function(){var a=document.createElement("script");
-var b=document.getElementsByTagName("script")[0];
-a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0024/6557.js?"+Math.floor(new Date().getTime()/3600000);
-a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script>
-</body>
+		<!-- banner start -->
+		<!-- ================ -->
+		<div id="banner" class="banner">
+			<div class="banner-image"></div>
+			<div class="banner-caption">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
+							<h1 class="text-center">We are <span>Worthy</span></h1>
+							<p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos debitis provident nulla illum minus enim praesentium repellendus ullam cupiditate reiciendis optio voluptatem, recusandae nobis quis aperiam, sapiente libero ut at.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- banner end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section clearfix object-non-visible" data-animation-effect="fadeIn">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 id="about" class="title text-center">About <span>Worthy</span></h1>
+						<p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta officia, aspernatur.</p>
+						<div class="space"></div>
+						<div class="row">
+							<div class="col-md-6">
+								<img src="images/section-image-1.png" alt="">
+								<div class="space"></div>
+							</div>
+							<div class="col-md-6">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi adipisci illo, voluptatum ipsam fuga error commodi architecto, laudantium culpa tenetur at id, beatae placeat deserunt iure quas voluptas fugit eveniet.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ducimus explicabo quibusdam temporibus deserunt doloremque pariatur ea, animi a. Delectus similique atque eligendi, enim vel reiciendis deleniti neque aliquid, sit?</p>
+								<ul class="list-unstyled">
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Lorem ipsum dolor sit amet</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Reiciendis deleniti neque aliquid</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Ipsam fuga error commodi</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Lorem ipsum dolor sit amet</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Dignissimos molestiae necessitatibus</li>
+								</ul>
+							</div>
+						</div>
+						<div class="space"></div>
+						<h2>Becessitatibus quae beatae possimus ullam</h2>
+						<div class="row">
+							<div class="col-md-6">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi adipisci illo, voluptatum ipsam fuga error commodi architecto, laudantium culpa tenetur at id, beatae placeat deserunt iure quas voluptas fugit eveniet.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ducimus explicabo quibusdam temporibus deserunt doloremque pariatur ea, animi a. Delectus similique atque eligendi, enim vel reiciendis deleniti neque aliquid, sit?</p>
+								<p>Vitae dolores quam magnam accusantium nam, voluptatibus expedita delectus, dolorum odio magni ut nemo nihil ex earum pariatur molestias velit eveniet, facere autem saepe aut. Ut minima itaque porro facere. Cumque vitae autem, dignissimos molestiae necessitatibus culpa aliquam deleniti soluta sunt voluptatibus tenetur, unde dolorem eligendi doloribus quibusdam facere totam. Possimus atque deserunt numquam aliquam magnam, facilis officiis illo alias ipsa voluptas laborum, praesentium eveniet nobis velit voluptatem odio eligendi, corporis et iste distinctio! Repellendus, id, ad.</p>
+							</div>
+							<div class="col-md-6">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingOne">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+													Collapsible Group Item #1
+												</a>
+											</h4>
+										</div>
+										<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+											<div class="panel-body">
+												Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingTwo">
+											<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+													Collapsible Group Item #2
+												</a>
+											</h4>
+										</div>
+										<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+											<div class="panel-body">
+												Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingThree">
+											<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+													Collapsible Group Item #3
+												</a>
+											</h4>
+										</div>
+										<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+											<div class="panel-body">
+												Richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section translucent-bg bg-image-1 blue">
+			<div class="container object-non-visible" data-animation-effect="fadeIn">
+				<h1 id="services"  class="text-center title">Worthy Services</h1>
+				<div class="space"></div>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="media">
+							<div class="media-body text-right">
+								<h4 class="media-heading">Service 1</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+							<div class="media-right">
+								<i class="fa fa-cog"></i>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-body text-right">
+								<h4 class="media-heading">Service 2</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+							<div class="media-right">
+								<i class="fa fa-check"></i>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-body text-right">
+								<h4 class="media-heading">Service 3</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+							<div class="media-right">
+								<i class="fa fa-desktop"></i>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-body text-right">
+								<h4 class="media-heading">Service 4</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+							<div class="media-right">
+								<i class="fa fa-users"></i>
+							</div>
+						</div>
+					</div>
+					<div class="space visible-xs"></div>
+					<div class="col-sm-6">
+						<div class="media">
+							<div class="media-left">
+								<i class="fa fa-leaf"></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Service 5</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-left">
+								<i class="fa fa-area-chart"></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Service 6</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-left">
+								<i class="fa fa-child"></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Service 7</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-left">
+								<i class="fa fa-codepen"></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Service 8</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="default-bg space blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<h1 class="text-center">Let's Work Together!</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section">
+			<div class="container">
+				<h1 class="text-center title" id="portfolio">Portfolio</h1>
+				<div class="separator"></div>
+				<p class="lead text-center">Lorem ipsum dolor sit amet laudantium molestias similique.<br> Quisquam incidunt ut laboriosam.</p>
+				<br>			
+				<div class="row object-non-visible" data-animation-effect="fadeIn">
+					<div class="col-md-12">
+
+						<!-- isotope filters start -->
+						<div class="filters text-center">
+							<ul class="nav nav-pills">
+								<li class="active"><a href="#" data-filter="*">All</a></li>
+								<li><a href="#" data-filter=".web-design">Web design</a></li>
+								<li><a href="#" data-filter=".app-development">App development</a></li>
+								<li><a href="#" data-filter=".site-building">Site building</a></li>
+							</ul>
+						</div>
+						<!-- isotope filters end -->
+
+						<!-- portfolio items start -->
+						<div class="isotope-container row grid-space-20">
+							<div class="col-sm-6 col-md-3 isotope-item web-design">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-1.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-1">
+											<i class="fa fa-search-plus"></i>
+											<span>Web Design</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">Project Title</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-1-label">Project Title</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-1.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-3 isotope-item app-development">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-2.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>App Development</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Project Title</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-2" tabindex="-1" role="dialog" aria-labelledby="project-2-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-2-label">Project Title</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-2.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							
+							<div class="col-sm-6 col-md-3 isotope-item web-design">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-3.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-3">
+											<i class="fa fa-search-plus"></i>
+											<span>Web Design</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-3">Project Title</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-3" tabindex="-1" role="dialog" aria-labelledby="project-3-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-3-label">Project Title</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-3.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							
+							<div class="col-sm-6 col-md-3 isotope-item site-building">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-4.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-4">
+											<i class="fa fa-search-plus"></i>
+											<span>Site Building</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-4">Project Title</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-4" tabindex="-1" role="dialog" aria-labelledby="project-4-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-4-label">Project Title</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-4.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							
+							<div class="col-sm-6 col-md-3 isotope-item app-development">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-5.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-5">
+											<i class="fa fa-search-plus"></i>
+											<span>App Development</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-5">Project Title</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-5" tabindex="-1" role="dialog" aria-labelledby="project-5-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-5-label">Project Title</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-5.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							
+							<div class="col-sm-6 col-md-3 isotope-item web-design">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-6.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-6">
+											<i class="fa fa-search-plus"></i>
+											<span>Web Design</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Project Title</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-6-label">Project Title</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-6.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							
+							<div class="col-sm-6 col-md-3 isotope-item site-building">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-7.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-7">
+											<i class="fa fa-search-plus"></i>
+											<span>Site Building</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-7">Project Title</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-7" tabindex="-1" role="dialog" aria-labelledby="project-7-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-7-label">Project Title</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-7.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							
+							<div class="col-sm-6 col-md-3 isotope-item web-design">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-8.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-8">
+											<i class="fa fa-search-plus"></i>
+											<span>Web Design</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-8">Project Title</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-8" tabindex="-1" role="dialog" aria-labelledby="project-8-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-8-label">Project Title</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-8.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-3 isotope-item web-design">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-9.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-9">
+											<i class="fa fa-search-plus"></i>
+											<span>Web Design</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-9">Project Title</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-9" tabindex="-1" role="dialog" aria-labelledby="project-9-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-9-label">Project Title</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-9.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-3 isotope-item site-building">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-10.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-10">
+											<i class="fa fa-search-plus"></i>
+											<span>Site Building</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-10">Project Title</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-10" tabindex="-1" role="dialog" aria-labelledby="project-10-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-10-label">Project Title</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-10.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-3 isotope-item web-design">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-11.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-11">
+											<i class="fa fa-search-plus"></i>
+											<span>Web Design</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-11">Project Title</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-11" tabindex="-1" role="dialog" aria-labelledby="project-11-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-11-label">Project Title</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-11.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-3 isotope-item app-development">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-12.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-12">
+											<i class="fa fa-search-plus"></i>
+											<span>App Development</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-12">Project Title</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-12" tabindex="-1" role="dialog" aria-labelledby="project-12-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-12-label">Project Title</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-12.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+						</div>
+						<!-- portfolio items end -->
+					
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section translucent-bg bg-image-2 pb-clear">
+			<div class="container object-non-visible" data-animation-effect="fadeIn">
+				<h1 id="clients" class="title text-center">Clients</h1>
+				<div class="space"></div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="media testimonial">
+							<div class="media-left">
+								<img src="images/testimonial-1.png" alt="">
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading">You are Amazing!</h3>
+								<blockquote>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo.</p>
+									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="media testimonial">
+							<div class="media-left">
+								<img src="images/testimonial-2.png" alt="">
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading">Yeah!</h3>
+								<blockquote>
+									<p>Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus.</p>
+									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="media testimonial">
+							<div class="media-left">
+								<img src="images/testimonial-3.png" alt="">
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading">Thank You!</h3>
+								<blockquote>
+									<p>Aperiam consequatur quo quis exercitationem reprehenderit suscipit iste placeat.</p>
+									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="media testimonial">
+							<div class="media-left">
+								<img src="images/testimonial-2.png" alt="">
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading">Thank You!</h3>
+								<blockquote>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo.</p>
+									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="media testimonial">
+							<div class="media-left">
+								<img src="images/testimonial-3.png" alt="">
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading">Amazing!</h3>
+								<blockquote>
+									<p>Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus.</p>
+									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="media testimonial">
+							<div class="media-left">
+								<img src="images/testimonial-1.png" alt="">
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading">Best!</h3>
+								<blockquote>
+									<p>Aperiam consequatur quo quis exercitationem reprehenderit suscipit iste placeat.</p>
+									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- section start -->
+			<!-- ================ -->
+			<div class="translucent-bg blue">
+				<div class="container">
+					<div class="list-horizontal">
+						<div class="row">
+							<div class="col-xs-2">
+								<div class="list-horizontal-item">
+									<img src="images/client-1.png" alt="client">
+								</div>
+							</div>
+							<div class="col-xs-2">
+								<div class="list-horizontal-item">
+									<img src="images/client-2.png" alt="client">
+								</div>
+							</div>
+							<div class="col-xs-2">
+								<div class="list-horizontal-item">
+									<img src="images/client-3.png" alt="client">
+								</div>
+							</div>
+							<div class="col-xs-2">
+								<div class="list-horizontal-item">
+									<img src="images/client-4.png" alt="client">
+								</div>
+							</div>
+							<div class="col-xs-2">
+								<div class="list-horizontal-item">
+									<img src="images/client-5.png" alt="client">
+								</div>
+							</div>
+							<div class="col-xs-2">
+								<div class="list-horizontal-item">
+									<img src="images/client-6.png" alt="client">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- section end -->
+		</div>
+		<!-- section end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="default-bg space">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<h1 class="text-center">10000+ Happy Clients!</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- footer start -->
+		<!-- ================ -->
+		<footer id="footer">
+
+			<!-- .footer start -->
+			<!-- ================ -->
+			<div class="footer section">
+				<div class="container">
+					<h1 class="title text-center" id="contact">Contact Us</h1>
+					<div class="space"></div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="footer-content">
+								<p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nam magnam natus tempora cumque, aliquam deleniti voluptatibus voluptas. Repellat vel, et itaque commodi iste ab, laudantium voluptas deserunt nobis.</p>
+								<ul class="list-icons">
+									<li><i class="fa fa-map-marker pr-10"></i> One infinity loop, 54100</li>
+									<li><i class="fa fa-phone pr-10"></i> +00 1234567890</li>
+									<li><i class="fa fa-fax pr-10"></i> +00 1234567891 </li>
+									<li><i class="fa fa-envelope-o pr-10"></i> your@email.com</li>
+								</ul>
+								<ul class="social-links">
+									<li class="facebook"><a target="_blank" href="https://www.facebook.com/pages/HtmlCoder/714570988650168"><i class="fa fa-facebook"></i></a></li>
+									<li class="twitter"><a target="_blank" href="https://twitter.com/HtmlcoderMe"><i class="fa fa-twitter"></i></a></li>
+									<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+									<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
+									<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+									<li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+									<li class="flickr"><a target="_blank" href="http://www.flickr.com"><i class="fa fa-flickr"></i></a></li>
+									<li class="pinterest"><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="footer-content">
+								<form role="form" id="footer-form">
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="name2">Name</label>
+										<input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required>
+										<i class="fa fa-user form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="email2">Email address</label>
+										<input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2" required>
+										<i class="fa fa-envelope form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="message2">Message</label>
+										<textarea class="form-control" rows="8" id="message2" placeholder="Message" name="message2" required></textarea>
+										<i class="fa fa-pencil form-control-feedback"></i>
+									</div>
+									<input type="submit" value="Send" class="btn btn-default">
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .footer end -->
+
+			<!-- .subfooter start -->
+			<!-- ================ -->
+			<div class="subfooter">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<p class="text-center">Copyright © 2014 Worthy by <a target="_blank" href="http://htmlcoder.me">HtmlCoder</a>.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .subfooter end -->
+
+		</footer>
+		<!-- footer end -->
+
+		<!-- JavaScript files placed at the end of the document so the pages load faster
+		================================================== -->
+		<!-- Jquery and Bootstap core js files -->
+		<script type="text/javascript" src="plugins/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Modernizr javascript -->
+		<script type="text/javascript" src="plugins/modernizr.js"></script>
+
+		<!-- Isotope javascript -->
+		<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
+		
+		<!-- Backstretch javascript -->
+		<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
+
+		<!-- Appear javascript -->
+		<script type="text/javascript" src="plugins/jquery.appear.js"></script>
+
+		<!-- Initialization of Plugins -->
+		<script type="text/javascript" src="js/template.js"></script>
+
+		<!-- Custom Scripts -->
+		<script type="text/javascript" src="js/custom.js"></script>
+
+	</body>
 </html>
